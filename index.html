@@ -5,7 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="assets/img/favicon-32x32.png">
 	<title>Cafe de la Costa</title>
-	<!-- Cargo hoja de estilos --> 	
+	<!-- Cargo BOOTSTRAP CDN--> 	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Cargo Mi hoja de estilo --> 
 	<link rel="stylesheet" href="./css/estilos.css">
 
 	
@@ -48,11 +50,11 @@
 	<!-- cierre de fila logo + nav -->
 
 
-<main class="gridmain">
+<main>
 	
-	
-   
-<div class="sectionprincipal__texto">
+<div class="containerfull">	
+<div class="row">
+<div class="sectionprincipal__texto col-xs-12 col-md-6 col-lg-5">
 	<div>
 	<h2> Bienvenidos Café de la Costa</h2>
 	<p>Un lugar para disfrutar de bebidas y postres deliciosos</p>
@@ -66,13 +68,13 @@
 	</div>
 </div>
 
-	<div class="SeccionPrincipal__img">
+<div class="SeccionPrincipal__img col-xs-12 col-md-5 col-lg-5">
 		<img src="./assets/img/img_01.png">
 		
-	</div>
+</div>
 
-
-
+</div>
+</div><!--Cierre del container -->
 
 	
 
@@ -81,21 +83,22 @@
 
 
 
-
-
+<div class="container-fluid">
+<div class="row my-4">
+	
 		
-		<div class="Menus__img menu1img"><!-- Primer contenedor imagen de bocados con redireccion a MENU bocados -->
+		<div class="Menus__img col-lg-4 col-md-4 col-xs-12"><!-- Primer contenedor imagen de bocados con redireccion a MENU bocados -->
 			
-			<img src="./assets/img/bocados.jpg">
+			<img class="img-fluid" src="./assets/img/bocados.jpg">
 <a href="pages/menu.html#bocados"></a>
 		</div>
 
-	<div class="Menus__img menu2img"><!-- 2do contenedor imagen de Te o cafe con redireccion a MENU te o cafe -->
-		<img src="./assets/img/bebidas.jpg">
+	<div class="Menus__img col-lg-4 col-md-4 col-xs-12"><!-- 2do contenedor imagen de Te o cafe con redireccion a MENU te o cafe -->
+		<img class="img-fluid" src="./assets/img/bebidas.jpg">
 			<a href="pages/menu.html#bebidas"></a>
 	</div>
 
-    <div class="Menus__texto textmenu"><!-- 3er contenedor con texto -->
+    <div class="Menus__texto textmenu col-lg-3 col-md-4 col-xs-12"><!-- 3er contenedor con texto -->
 		<h2>Desayunos y Meriendas</h2>
 		<h2> Con Productos recien horneados</h2>
 		<p>Nuestra tienda cuenta con gran variedad de cafe de exclente
@@ -105,8 +108,8 @@
 		
 	
  	</div>
-
-
+</div><!--Cierre de la row de bootstrap -->
+</div>
 
 	<section class="imgbanner">
 		
@@ -129,12 +132,14 @@
 
 
 
-		
+		<div class="container">
+			<div class="row">
+
 			<!--Seccion de imagen del Local Con texto referente al lugar -->
-			<div class="local__img" >
+			<div class="local__img col-md-6 col-lg-5 col-xs-12">
 				<img src="./assets/img/cafelocal.jpg" alt="Imagen del local cafe de la costa">
 			</div>
-		<div class="local__texto">
+		<div class="local__texto col-md-6 col-lg-5 col-xs-12">
 
 			<h2>Un Lugar para pasar un momento agradable</h2>
 			<p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -147,7 +152,9 @@
 				laborum.
 				</p>
 		</div>
-		
+
+	</div>
+	</div>
 	
 
 </main><!-- Cierre del main --> 
@@ -209,5 +216,8 @@
 		</div>
 	
 	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+
 </body>
 </html>

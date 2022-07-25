@@ -145,24 +145,6 @@ header img {
 
 
 
-.gridmain{
-    display: grid;
-   margin:0px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-gap: 15px;
-    grid-template-areas:
-        "texto1 texto1 texto1 img1 img1 img1"
-        "menu1img menu1img menu2img menu2img textmenu textmenu"
-        "banner banner banner banner banner banner"
-        "imglocal imglocal imglocal textolocal textolocal textolocal"
-    ;
-    column-gap: 0rem;
-    /*Separacion*/
-    row-gap: 2rem;
-    /*gap:2px 2px;   PARA Abreviar separacion*/
-}
-
 
 
 .sectionprincipal__texto {
@@ -171,7 +153,6 @@ header img {
     text-align: center;
     grid-area: texto1;
     margin-left: 3rem;
-    width: 60%;
     margin-top: 2rem;
     color: #5a321d;
     font-size: 55px;
@@ -236,29 +217,29 @@ hr {
 }
 
 
-.menu1img{
 
-    grid-area: menu1img;
-   
-   
-	
-   
-}
 .Menus__img img{
     width: 100%;
     height: auto;
+    
 }
+.Menus__img{
+   margin-left: 0px;
+   padding-left: 0px;
+   padding-right: 0px;
+}
+
 .Menus__img:hover{
 
     transform: scale(1.1);
     
 }
-.menu2img{
-    grid-area: menu2img;
-   
 
+.containerfull{
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
-
 
 
 
@@ -313,10 +294,8 @@ hr {
 
 
 .local__img {
-    grid-area: imglocal;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    margin-left: 3rem;
+  
+ 
 
 
 }
@@ -325,7 +304,8 @@ hr {
 
 
 .local__img img {
-    width: 70%;
+      margin-top: 2rem;
+    width: 100%;
     height: auto;
     object-fit: cover;
     box-shadow: 10px 10px 5px 0px rgba(90, 50, 29, 0.55);
@@ -334,10 +314,9 @@ hr {
 }
 
 .local__texto {
-    grid-area: textolocal;
+ 
     margin-top: 2rem;
   
-width :70%;
     text-align: justify;
    
     color: rgba(90, 50, 29, 1);
@@ -1512,27 +1491,6 @@ justify-items: end;
     /*SECCION PRINCIPAL TAZA DE CAFE TITULOS EN MODO RESPONSIVE CEL*/
 
 
-.gridmain{
-    display: grid;
-   margin:0px;
-    grid-template-columns: 1fr;
-    grid-template-rows:auto;
-    grid-gap: 0px;
-    grid-template-areas:
-        "texto1"
-        "img1"
-        "menu1img"
-        "menu2img"
-        "textmenu"
-        "banner"
-        "imglocal"
-        "textolocal"
-    ;
-   
-    /*Separacion*/
-    row-gap: 0px;
-    /*gap:2px 2px;   PARA Abreviar separacion*/
-}
 
 
 
