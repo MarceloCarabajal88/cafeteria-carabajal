@@ -459,6 +459,14 @@ footer {
     text-align: center;
 }
 
+.BannerTitulo__Texto h1{
+   
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 62px;
+  
+ 
+}
 
 
 /*Pagina Menu*/
@@ -598,8 +606,6 @@ footer {
     background: #ffffff;
 
     color: rgb(61, 57, 56);
-    width: 60%;
-    height: auto;
     margin: 1% 20%;
     padding-top: 2rem;
 
@@ -610,17 +616,9 @@ footer {
     margin-top: 2rem;
 }
 
-.flexiconos {
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-}
 
-.flexiconos__cont {
-    width: 30%;
-}
+
+
 
 .contacto__form {
 
@@ -1279,17 +1277,8 @@ justify-items: end;
 
 }
 
-.flexiconos {
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-}
 
-.flexiconos__cont {
-    width: 100%;
-}
+
 
 .contacto__form {
 
@@ -1931,17 +1920,8 @@ font-weight: 500;
 
 }
 
-.flexiconos {
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-}
 
-.flexiconos__cont {
-    width: 100%;
-}
+
 
 .contacto__form {
 
