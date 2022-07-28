@@ -7,14 +7,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="../assets/img/favicon-32x32.png">
 	<title>Menú</title>
+	<!-- Boostrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-		<!-- Cargo hoja de estilos --> 
-		<link rel="stylesheet" href="../css/estilos.css">
+	<!-- Cargo hoja de estilos -->
+	<link rel="stylesheet" href="../css/estilos.css">
 
-		<!-- Cargo Fuentes --> 	
+	<!-- Cargo Fuentes -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
@@ -24,133 +26,137 @@
 	<!-- fila de logo + nav -->
 
 
-	
+
 	<header class="flex">
 		<div>
-		<img src="../assets/img/LogoCafe.png"></img>
-	  </div>
-	  <nav class="navbar">
-		<div class="navbar-container container">
-			<input type="checkbox" name="" id="">
-			<div class="hamburger-lines">
-				<span class="line line1"></span>
-				<span class="line line2"></span>
-				<span class="line line3"></span>
-			</div>
-			<ul class="menu-items">
-				<li><a class="btn" href="../index.html">Home</a></li>
-				<li><a class="btn" href="menu.html">Menu</a></li>
-				<li><a class="btn" href="galeria.html">Galeria</a></li>
-				<li><a class="btn" href="sobrenosotros.html">Nosotros</a></li>
-				<li><a class="btn" href="contacto.html">Contacto</a></li>
-		
-			</ul>
-			
+			<img src="../assets/img/LogoCafe.png"></img>
 		</div>
-	</nav>
+		<nav class="navbar">
+			<div class="navbar-container container">
+				<input type="checkbox" name="" id="">
+				<div class="hamburger-lines">
+					<span class="line line1"></span>
+					<span class="line line2"></span>
+					<span class="line line3"></span>
+				</div>
+				<ul class="menu-items">
+					<li><a class="btn" href="../index.html">Home</a></li>
+					<li><a class="btn" href="menu.html">Menu</a></li>
+					<li><a class="btn" href="galeria.html">Galeria</a></li>
+					<li><a class="btn" href="sobrenosotros.html">Nosotros</a></li>
+					<li><a class="btn" href="contacto.html">Contacto</a></li>
 
-		
+				</ul>
+
+			</div>
+		</nav>
+
+
 	</header>
 	<!-- cierre de fila logo + nav -->
 
 	<!-- fila de información de mi sitio -->
 	<main>
-		
+
 		<section class="BannerTitulo">
 			<!-- Div con H1 del titulo de página -->
-			
+
 			<div class="BannerTitulo__Texto">
-			<h1>Nuestro Menú</h1>
-		
+				<h1>Nuestro Menú</h1>
+
 			</div>
 		</section>
 
 		<div class="secciontitulo">
-		<h2>Para Merendar</h2>
-	   </div>
+			<h2>Para Merendar</h2>
+		</div>
 
-		<section class="gridmenu">
-			
-			<article class="seccion1" id="bocados">
-				<div class="flexColumn__texto">
-					<h2>Café + 2 Scones de Queso</h2>
-					<p>Café Americano pequeño & dos Scones de Queso Parmesano</p>
-					<span>325</span>
-				</div>
-				
-			
-				<div class="flexColumn__texto">
-					<h2>Café + Omelette de Queso y Bacon o Tomates</h2>
-					<p>Café Americano pequeño & Omellette de Queso Parmesano</p>
-					<span>350</span>
-				</div>
-				
+		<section class="container-fluid">
+			<div class="row">
+				<article class="col-lg-4 col-md-6 col-xs-12" id="bocados">
+					<div class="flexColumn__texto">
+						<h2>Café + 2 Scones de Queso</h2>
+						<p>Café Americano pequeño & dos Scones de Queso Parmesano</p>
+						<span>325</span>
+					</div>
 
-				<div class="flexColumn__texto">
-					<h2>Café & Browonie de Chocolate</h2>
-					<p>Café Americano pequeño & Brownie de Chocolate.</p>
-					<span>380</span>
-				</div>
 
-			</article>
+					<div class="flexColumn__texto">
+						<h2>Café + Omelette de Queso y Bacon o Tomates</h2>
+						<p>Café Americano pequeño & Omellette de Queso Parmesano</p>
+						<span>350</span>
+					</div>
 
-			<article class="seccion2">
-				<div class="flexColumn__texto">
-					<h2>Café + Bagel de Panceta y Cheddar</h2>
-					<p>Café Americano pequeño & Bagel de pan blanco con semillas relleno de Panceta crocante con barbacoa y Queso Cheddar.</p>
-					<span>420</span>
-				</div>
 
-			
-				<div class="flexColumn__texto">
-					<h2>Café & Bagel Caprese</h2>
-					<p>Café Americano pequeño & Bagel de pan blanco con semillas relleno de Queso Muzzarella, Albahaca y Tomate.</p>
-					<span>420</span>
-				</div>
-				
-			
-				<div class="flexColumn__texto">
-					<h2>Café & Bagel de Lomito y Queso.</h2>
-					<p>Café Americano pequeño & Bagel de pan blanco con semillas relleno de Lomito Canadiense y Muzzarella.</p>
-					<span>420</span>
-				</div>
+					<div class="flexColumn__texto">
+						<h2>Café & Browonie de Chocolate</h2>
+						<p>Café Americano pequeño & Brownie de Chocolate.</p>
+						<span>380</span>
+					</div>
 
-			</article>
+				</article>
 
-			<div class="seccion3">
-			<article class="ImgColumn">
-				<div>
-					<img src="../assets/img/cake.jpg" width="290px">
+				<article class="col-lg-4 col-md-6 col-xs-12">
+					<div class="flexColumn__texto">
+						<h2>Café + Bagel de Panceta y Cheddar</h2>
+						<p>Café Americano pequeño & Bagel de pan blanco con semillas relleno de Panceta crocante con
+							barbacoa y Queso Cheddar.</p>
+						<span>420</span>
+					</div>
+
+
+					<div class="flexColumn__texto">
+						<h2>Café & Bagel Caprese</h2>
+						<p>Café Americano pequeño & Bagel de pan blanco con semillas relleno de Queso Muzzarella,
+							Albahaca y Tomate.</p>
+						<span>420</span>
+					</div>
+
+
+					<div class="flexColumn__texto">
+						<h2>Café & Bagel de Lomito y Queso.</h2>
+						<p>Café Americano pequeño & Bagel de pan blanco con semillas relleno de Lomito Canadiense y
+							Muzzarella.</p>
+						<span>420</span>
+					</div>
+
+				</article>
+
+				<div class="col-lg-4 col-md-6 col-xs-12">
+					<article class="ImgColumn">
+						<div>
+							<img src="../assets/img/cake.jpg" width="290px">
+						</div>
+
+					</article>
 				</div>
-				
-			</article>
 			</div>
 
 
 
+			<div class="row mt-5">
+				<article class="col-lg-4 col-md-6 col-xs-12" id="bebidas">
+					<div>
+						<img src="../assets/img/tazacafemenu.jpg" width="400px">
+					</div>
+				</article>
 
-		
-			<article class="seccion4" id="bebidas">
-				<div>
-					<img src="../assets/img/tazacafemenu.jpg" width="400px">
+				<div class="col-lg-6 col-md-6 col-xs-12">
+					<article class="MenuLista">
+						<h2>Coffe and tea</h2>
+						<p>Con grano de Café seleccionado y Té de excelencia.</p>
+						<ul>
+							<li>Espresso <span>100</span></li>
+							<li>Latte <span>130</span></li>
+							<li>Cappuccino <span>150</span></li>
+							<li>Irish Coffee <span>170</span></li>
+							<li>Organic Green Tee <span>105</span</li>
+							<li>Herbal Tee<span>105</span></li>
+
+						</ul>
+					</article>
 				</div>
-			</article>
-
-			<div class="seccion5 ">
-			<article class="MenuLista">
-			<h2>Coffe and tea</h2>
-			<p>Con grano de Café seleccionado y Té de excelencia.</p>
-		     <ul>
-			<li>Espresso <span>100</span></li>
-			<li>Latte <span>130</span></li>
-			<li>Cappuccino <span>150</span></li>
-			<li>Irish Coffee <span>170</span></li>
-			<li>Organic Green Tee <span>105</span</li>
-			<li>Herbal Tee<span>105</span></li>
-
-		</ul>
-	   </article>
-		</div>
+				</div>
 		</section>
 
 
@@ -169,52 +175,60 @@
 
 
 
-<hr>
+	<hr>
 
 	<!-- inicio de footer -->
 
 
 	<footer>
-		<div class="footericonos"><!-- Div  de información de contacto, correo, telefono y ubicación -->
-		<div class="footericonos__column">
-			<img src="../assets/img/iconotel.png" alt="icono de tel">
-			<span>+5942235658726</span>
+		<div class="footericonos">
+			<!-- Div  de información de contacto, correo, telefono y ubicación -->
+			<div class="footericonos__column">
+				<img src="../assets/img/iconotel.png" alt="icono de tel">
+				<span>+5942235658726</span>
+			</div>
+
+			<div class="footericonos__column">
+				<img src="../assets/img/iconomail.png" alt="icono de email">
+				<span>cafedelacosta@cafe.com</span>
+			</div>
+
+			<div class="footericonos__column">
+				<img src="../assets/img/iconoubicacion.png" alt="icono de ubicacion">
+				<span>Canelones, Uruguay</span>
+			</div>
 		</div>
 
-		<div class="footericonos__column">
-			<img src="../assets/img/iconomail.png" alt="icono de email">
-			<span>cafedelacosta@cafe.com</span>
-		</div>
 
-		<div class="footericonos__column">
-			<img src="../assets/img/iconoubicacion.png" alt="icono de ubicacion">
-			<span>Canelones, Uruguay</span>
-		</div>
-        </div>
+		<div class="footercontent">
+			<!-- DIV CONTENEDOR DE Logo, reseña del lugar y redes sociales -->
 
-		
-         <div class="footercontent"><!-- DIV CONTENEDOR DE Logo, reseña del lugar y redes sociales -->
-
-			<div class="footercontent__img"><!-- Logo, reseña del lugar  -->
+			<div class="footercontent__img">
+				<!-- Logo, reseña del lugar  -->
 				<img src="../assets/img/LogoCafe2.png">
 			</div>
 
 			<div class="footercontent__text">
-			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore 
-			beatae quaerat corporis voluptas quia eaque odio, pariatur perferendis
-			 facilis rerum itaque, nobis fuga molestias in modi nulla est reiciendis incidunt.</p>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore
+					beatae quaerat corporis voluptas quia eaque odio, pariatur perferendis
+					facilis rerum itaque, nobis fuga molestias in modi nulla est reiciendis incidunt.</p>
 			</div>
 
-			
 
-			<div><!-- Iconos de redes soiales  -->
-				<a href="https://www.facebook.com/" target="_blank"><img src="../assets/img/facefoot.png" width="50px"></a>
-				<a href="https://www.instagram.com/" target="_blank"><img src="../assets/img/instafoot.png" width="50px"></a>
-				<a href="https://www.youtube.com/" target="_blank"><img src="../assets/img/youtfoot.png" width="50px"></a>
-		    </div>
+
+			<div>
+				<!-- Iconos de redes soiales  -->
+				<a href="https://www.facebook.com/" target="_blank"><img src="../assets/img/facefoot.png"
+						width="50px"></a>
+				<a href="https://www.instagram.com/" target="_blank"><img src="../assets/img/instafoot.png"
+						width="50px"></a>
+				<a href="https://www.youtube.com/" target="_blank"><img src="../assets/img/youtfoot.png"
+						width="50px"></a>
+			</div>
 		</div>
 
-		<div><!-- Menu de navegacion -->
+		<div>
+			<!-- Menu de navegacion -->
 			<nav class="menufooter">
 				<ul class="menufooter__items">
 					<li><a href="../index.html" class="btn">Home</a></li>
@@ -222,13 +236,18 @@
 					<li><a href="galeria.html" class="btn">Galería</a></li>
 					<li><a href="sobrenosotros.html" class="btn">Nosotros</a></li>
 					<li><a href="contacto.html" class="btn">Contacto</a></li>
-					
+
 				</ul>
 				</ul>
 			</nav>
 
 		</div>
-	
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+			integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+			crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+			integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+			crossorigin="anonymous"></script>
 	</footer>
 </body>
 

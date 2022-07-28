@@ -7,9 +7,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="shortcut icon" href="../assets/img/favicon-32x32.png">
 	<title>Galería</title>
-	<!-- Boostrap --> 
+	<!-- Boostrap -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
-	
+
 	<!-- Cargo hoja de estilos -->
 	<link rel="stylesheet" href="../css/estilos.css">
 
@@ -24,41 +24,41 @@
 </head>
 
 <body>
-	<div class="containerGrid">
-		<!-- fila de logo + nav -->
 
-		<header class="flex headergrid">
-			
+	<!-- fila de logo + nav -->
 
-				<div>
-					<img src="../assets/img/LogoCafe.png">
+	<header class="flex headergrid">
+
+
+		<div>
+			<img src="../assets/img/LogoCafe.png">
+		</div>
+		<nav class="navbar">
+			<div class="navbar-container container">
+				<input type="checkbox" name="" id="">
+				<div class="hamburger-lines">
+					<span class="line line1"></span>
+					<span class="line line2"></span>
+					<span class="line line3"></span>
 				</div>
-				<nav class="navbar">
-					<div class="navbar-container container">
-						<input type="checkbox" name="" id="">
-						<div class="hamburger-lines">
-							<span class="line line1"></span>
-							<span class="line line2"></span>
-							<span class="line line3"></span>
-						</div>
-						<ul class="menu-items">
-							<li><a class="btn" href="../index.html">Home</a></li>
-							<li><a class="btn" href="menu.html">Menu</a></li>
-							<li><a class="btn" href="galeria.html">Galeria</a></li>
-							<li><a class="btn" href="sobrenosotros.html">Nosotros</a></li>
-							<li><a class="btn" href="contacto.html">Contacto</a></li>
+				<ul class="menu-items">
+					<li><a class="btn" href="../index.html">Home</a></li>
+					<li><a class="btn" href="menu.html">Menu</a></li>
+					<li><a class="btn" href="galeria.html">Galeria</a></li>
+					<li><a class="btn" href="sobrenosotros.html">Nosotros</a></li>
+					<li><a class="btn" href="contacto.html">Contacto</a></li>
 
-						</ul>
+				</ul>
 
-					</div>
-				</nav>
-			
+			</div>
+		</nav>
 
 
 
 
-		</header>
-	
+
+	</header>
+
 
 	<div class="bannerPage">
 		<main>
@@ -75,26 +75,29 @@
 	<div class="divrow2">
 		<h2>DISFRUTA LOS MOMENTOS</h2>
 	</div>
-	<div class="main1">
-		<section class="videotexto">
-			<div class="videotexto__iframe">
-				<iframe src="https://www.youtube.com/embed/6JQXhMpk7IE"
-					title="Cafe Del Centro-Publicidad" frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen></iframe>
-			</div>
-		</section>
-	</div>
 
-	<div class="main2">
-		<div class="videotexto__texto">
-			<h2>Conoce de cerca nuestro local</h2>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex et inventore at quod ratione? At ea et
-				aliquam numquam recusandae dolor maxime blanditiis, fugiat quam ex impedit ducimus nam suscipit.</p>
+	<div class="container fluid">
+		<div class="row">
+		<div class="col-lg-6 ol-md-6 col-xs-12">
+			<section class="videotexto">
+				<div class="videotexto__iframe">
+					<iframe src="https://www.youtube.com/embed/6JQXhMpk7IE" title="Cafe Del Centro-Publicidad"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+				</div>
+			</section>
 		</div>
+
+		<div class="col-lg-6 ol-md-6 col-xs-12">
+			<div class="videotexto__texto">
+				<h2>Conoce de cerca nuestro local</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex et inventore at quod ratione? At ea et
+					aliquam numquam recusandae dolor maxime blanditiis, fugiat quam ex impedit ducimus nam suscipit.</p>
+			</div>
+		</div>
+
 	</div>
-
-
 	</div>
 
 
@@ -119,46 +122,54 @@
 
 	<div class="footerPage">
 		<footer>
-			<div class="footericonos"><!-- Div  de información de contacto, correo, telefono y ubicación -->
-			<div class="footericonos__column">
-				<img src="../assets/img/iconotel.png" alt="icono de tel">
-				<span>+5942235658726</span>
+			<div class="footericonos">
+				<!-- Div  de información de contacto, correo, telefono y ubicación -->
+				<div class="footericonos__column">
+					<img src="../assets/img/iconotel.png" alt="icono de tel">
+					<span>+5942235658726</span>
+				</div>
+
+				<div class="footericonos__column">
+					<img src="../assets/img/iconomail.png" alt="icono de email">
+					<span>cafedelacosta@cafe.com</span>
+				</div>
+
+				<div class="footericonos__column">
+					<img src="../assets/img/iconoubicacion.png" alt="icono de ubicacion">
+					<span>Canelones, Uruguay</span>
+				</div>
 			</div>
-	
-			<div class="footericonos__column">
-				<img src="../assets/img/iconomail.png" alt="icono de email">
-				<span>cafedelacosta@cafe.com</span>
-			</div>
-	
-			<div class="footericonos__column">
-				<img src="../assets/img/iconoubicacion.png" alt="icono de ubicacion">
-				<span>Canelones, Uruguay</span>
-			</div>
-			</div>
-	
-			
-			 <div class="footercontent"><!-- DIV CONTENEDOR DE Logo, reseña del lugar y redes sociales -->
-	
-				<div class="footercontent__img"><!-- Logo, reseña del lugar  -->
+
+
+			<div class="footercontent">
+				<!-- DIV CONTENEDOR DE Logo, reseña del lugar y redes sociales -->
+
+				<div class="footercontent__img">
+					<!-- Logo, reseña del lugar  -->
 					<img src="../assets/img/LogoCafe2.png">
 				</div>
-	
+
 				<div class="footercontent__text">
-				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore 
-				beatae quaerat corporis voluptas quia eaque odio, pariatur perferendis
-				 facilis rerum itaque, nobis fuga molestias in modi nulla est reiciendis incidunt.</p>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore
+						beatae quaerat corporis voluptas quia eaque odio, pariatur perferendis
+						facilis rerum itaque, nobis fuga molestias in modi nulla est reiciendis incidunt.</p>
 				</div>
-	
-				
-	
-				<div><!-- Iconos de redes soiales  -->
-					<a href="https://www.facebook.com/" target="_blank"><img src="../assets/img/facefoot.png" width="50px"></a>
-					<a href="https://www.instagram.com/" target="_blank"><img src="../assets/img/instafoot.png" width="50px"></a>
-					<a href="https://www.youtube.com/" target="_blank"><img src="../assets/img/youtfoot.png" width="50px"></a>
+
+
+
+				<div>
+					<!-- Iconos de redes soiales  -->
+					<a href="https://www.facebook.com/" target="_blank"><img src="../assets/img/facefoot.png"
+							width="50px"></a>
+					<a href="https://www.instagram.com/" target="_blank"><img src="../assets/img/instafoot.png"
+							width="50px"></a>
+					<a href="https://www.youtube.com/" target="_blank"><img src="../assets/img/youtfoot.png"
+							width="50px"></a>
 				</div>
 			</div>
-	
-			<div><!-- Menu de navegacion -->
+
+			<div>
+				<!-- Menu de navegacion -->
 				<nav class="menufooter">
 					<ul class="menufooter__items">
 						<li><a href="../index.html" class="btn">Home</a></li>
@@ -166,21 +177,25 @@
 						<li><a href="galeria.html" class="btn">Galería</a></li>
 						<li><a href="sobrenosotros.html" class="btn">Nosotros</a></li>
 						<li><a href="contacto.html" class="btn">Contacto</a></li>
-						
+
 					</ul>
 					</ul>
 				</nav>
-	
+
 			</div>
-		
+
 		</footer>
 	</div><!-- Cierre div hijo grid Footer  -->
 
 
 
-	</div><!-- Cierre Grid Padre  -->
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+		integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+		integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+		crossorigin="anonymous"></script>
 </body>
 
 </html>
