@@ -23,6 +23,13 @@ p {
     font-weight: 500;
 }
 
+hr {
+    border: 0;
+    border-top: 5px solid $colorPrincipal;
+    text-align: center;
+    margin:0rem;
+    opacity:1;
+}
 
 /* TITULO BANNER DE LAS PAGINAS*/
 .BannerTitulo {

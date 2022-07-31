@@ -1,3 +1,4 @@
+@import "./parciales/variables";// Siempre al inicio para poder usar las variables
 @import "./parciales/base";
 @import "./parciales/header";
 @import "./parciales/inicio";
@@ -6,4 +7,4 @@
 @import "./parciales/pagcontacto";
 @import "./parciales/paggaleria";
 @import "./parciales/pagsobrenos";
-@import "./parciales/media-querys";
+@import "./parciales/media-querys";//Siempre al final las media querys
