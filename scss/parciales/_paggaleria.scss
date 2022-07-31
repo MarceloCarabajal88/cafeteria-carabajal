@@ -1,0 +1,120 @@
+/*PAGINA GALERIA UTILIZANDO GRID*/ 
+
+
+
+.divrow2 {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.divrow2 h2 {
+    font-size: 55px;
+    line-height: 57px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+
+.videotexto__iframe {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+  width: 80%;
+  padding-bottom: 56.25%; 
+  height: 0;
+
+}
+
+
+.videotexto__iframe iframe {
+    
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.videotexto__texto {
+    text-align: center;
+    width: 80%;
+    margin-bottom: 2rem;
+
+}
+
+.videotexto__texto h2 {
+    font-size: 40px;
+    line-height: 57px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+
+        
+
+.gridimage {
+
+    border: solid 3px rgba(141, 101, 75, 1);
+
+    margin-bottom: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 350px);
+    grid-gap: 15px;
+    grid-template-areas:
+        "img2 img2 img1"
+        "img5 img6 img4"
+        "img3 img3 img4"
+    ;
+    column-gap: 2px;
+    /*Separacion*/
+    row-gap: 5px;
+    /*gap:2px 2px;   PARA Abreviar separacion*/
+}
+
+.gridimage__img1 {
+
+    grid-area: img1;
+}
+
+.gridimage__img2 {
+
+
+
+    grid-area: img2;
+}
+
+.gridimage__img3 {
+
+    grid-area: img3;
+}
+
+.gridimage__img4 {
+
+    grid-area: img4;
+}
+
+.gridimage__img5 {
+
+    grid-area: img5;
+}
+
+.gridimage__img6 {
+
+    grid-area: img6;
+}
+
+.gridnieto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}

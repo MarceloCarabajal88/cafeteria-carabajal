@@ -1,0 +1,70 @@
+header {
+    width: 100%;
+    margin-bottom: 0;
+    ;
+}
+
+header img {
+    margin-top: 5%;
+    width: 150px;
+    margin-left: 50px;
+
+}
+
+.navbar1 input[type="checkbox"],
+.navbar1 .hamburger-lines {
+    display: none;
+}
+
+.navbar1 {
+
+    color: rgb(255, 255, 255);
+    opacity: 0.85;
+    height: 150px;
+
+}
+
+.navbar1-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+}
+
+.menu-items {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.menu-items li {
+   
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    margin: 15px;
+    padding: 20px;
+    transition: color 0.5s ease-in-out;
+    font-family: 'Bebas Neue', cursive;
+}
+.menu-items li:hover{
+    list-style:disc;
+    color:rgb(143, 98, 47);
+}
+
+
+.menu-items a {
+    font-size: 20px;
+    color: #3d2c2a;
+     transition: color 0.5s ease-in-out;
+     font-weight: 500;
+}
+
+
+
+.menu-items li a:hover {
+  
+    color: #cc926f;
+    transition: background-color 500ms linear
+}

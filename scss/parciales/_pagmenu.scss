@@ -1,0 +1,102 @@
+/*Pagina Menu*/
+
+.secciontitulo {
+    color: rgba(90, 50, 29, 1);
+    width: 100%;
+    text-align: left;
+    margin: 2rem;
+    font-size: 30px;
+}
+
+
+  
+  
+
+.flexColumn__texto {
+
+
+    position: relative;
+    font-size: large;
+    color: #302e2e;
+    margin-left: 1.5rem;
+
+}
+
+.flexColumn__texto span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #ffffff;
+    background: #C7A17A;
+    font-family: "Jost", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 1.5px 13px;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    line-height: 22px;
+    margin-bottom: 23px;
+}
+
+
+.ImgColumn {
+
+    width: 15%;
+
+    margin-bottom: 20px;
+
+}
+
+.FlexColum div {
+    margin-bottom: 15px;
+}
+
+
+
+.MenuLista {
+    color: #302e2e;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+    margin-left: 2rem;
+}
+
+.MenuLista h2{
+    text-decoration: underline;
+}
+
+.MenuLista p {
+    margin-bottom: 2rem;
+}
+
+
+.MenuLista ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    margin: 0.2rem 0;
+}
+
+.MenuLista ul li span {
+    color: #ffffff;
+    background: #C7A17A;
+    font-family: "Jost", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 1.5px 13px;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    line-height: 22px;
+    margin-bottom: 23px;
+    margin-left: 2rem;
+}
+
+
+.MenuImg {
+    width: 100%;
+}

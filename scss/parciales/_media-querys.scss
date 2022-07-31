@@ -1,0 +1,899 @@
+/*-------------------------Medias Querys------------------------*/
+
+/*Medias Querys Para Tablet*/
+@media screen and (max-width:1023px) {
+
+
+    /*FOOTER*/
+    
+    .footercontent {
+        display: flex;
+        /*Siempre hay que agregarle display flex al elemento Padre, esta clase*/
+    
+        /*para que sea responsive se reacomoden sus hijos*/
+    
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    
+    
+    
+    }
+    
+    .footercontent__img {
+        text-align: center;
+        margin: 0%;
+        width: 100%;
+    
+    }
+    
+    .footercontent__img img {
+    
+        width: 180px;
+    
+    }
+    
+    
+    .footercontent__text {
+        text-align: justify;
+        font-size: larger;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 15px;
+    }
+    
+    
+    .footericonos {
+        width: 100%;
+        display: flex;
+        /*Siempre hay que agregarle display flex al elemento Padre, esta clase*/
+    
+        /*para que sea responsive se reacomoden sus hijos*/
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items:flex-start;
+       margin-left: 15px;
+        padding: 25px;
+    
+    
+    }
+    
+    
+    
+    .footericonos__column img{
+        margin-right: 10px;
+        width:40px;
+        height: auto;
+    }
+    
+    .footericonos__column span{
+     margin-top: 15px;
+     font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    }
+    
+    .footericonos__column{
+     display: flex;
+    flex-direction: row;
+    justify-items: end;
+    }
+    
+    
+    .menufooter__items {
+    
+        display: flex;
+        flex-direction: row;
+          width: 100%;
+          margin-left: 0%;
+          justify-content: space-evenly;
+          margin-top: 15px;
+        
+      }
+      
+      
+      
+      
+      .menufooter__items li {
+       list-style: none;
+          font-size: 16px;
+          color: #faf9f9;
+          font-weight: 300;
+           transition: color 0.5s ease-in-out;
+           font-family: 'Bebas Neue', cursive;
+           padding-top: 2rem;
+           padding-bottom: 2rem;
+           transition: color 1s ease-in-out;
+      
+      }
+    
+    
+    
+    /*FIN FOOTER*/
+    
+        .navbar1 {
+            opacity: 1;
+            margin-left: 15px;
+            
+        }
+    
+        .navbar1-container input[type="checkbox"],
+        .navbar1-container .hamburger-lines {
+            display: block;
+        }
+    
+        .navbar1-container {
+            display: block;
+            position: relative;
+            height: 64px;
+            z-index: 1000;
+        }
+    
+        .navbar1-container input[type="checkbox"] {
+            position: absolute;
+            display: block;
+            height: 32px;
+            width: 30px;
+            top: 20px;
+            right: 40px;
+            z-index: 5;
+            opacity: 0;
+        }
+    
+        .navbar1-container .hamburger-lines {
+            display: block;
+            height: 23px;
+            width: 35px;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    
+        .navbar1-container .hamburger-lines .line {
+            display: block;
+            height: 4px;
+            width: 100%;
+            border-radius: 10px;
+            background: #333;
+        }
+    
+        .navbar1-container .hamburger-lines .line1 {
+            transform-origin: 0% 0%;
+            transition: transform 0.4s ease-in-out;
+        }
+    
+        .navbar1-container .hamburger-lines .line2 {
+            transition: transform 0.2s ease-in-out;
+        }
+    
+        .navbar1-container .hamburger-lines .line3 {
+            transform-origin: 0% 100%;
+            transition: transform 0.4s ease-in-out;
+        }
+    
+    
+    
+    
+        .navbar1 .menu-items {
+           width: 100%;
+            padding-top: 0px;
+            background: #fff;
+            height: auto;
+            max-width: 300px;
+            transform: translate(-550%);
+            display: flex;
+            flex-direction: column;
+           
+           align-items: center;
+            transition: transform 0.5s ease-in-out;
+            box-shadow: 5px 0px 10px 0px #aaa;
+        }
+    
+    
+        .navbar1 .menu-items li {
+            text-align: center;
+            margin-bottom: 0.2rem;
+            font-size: 0.6rem;
+          
+        }
+    
+        .navbar1-container input[type="checkbox"]:checked~.menu-items {
+            transform: translateX(0);
+        }
+    
+        .navbar1-container input[type="checkbox"]:checked~.hamburger-lines .line1 {
+            transform: rotate(35deg);
+        }
+    
+        .navbar1-container input[type="checkbox"]:checked~.hamburger-lines .line2 {
+            transform: scaleY(0);
+        }
+    
+        .navbar1-container input[type="checkbox"]:checked~.hamburger-lines .line3 {
+            transform: rotate(-35deg);
+        }
+    
+    
+        header img {
+            margin-top: 5%;
+            width: 100px;
+            margin-left: 5px;
+    
+        }
+    
+    
+    
+    
+    
+    
+    /*PAGINA CONTACTO AREA TABLET GRID*/
+    .contacto {
+        font-family: 'Jost', sans-serif;
+        font-size: 16px;
+        border: 1px solid #E2DFDD;
+        box-shadow: 0px 14px 40px 0px rgba(220, 220, 220, 0.3);
+    
+    
+        color: rgb(61, 57, 56);
+        width: 100%;
+        height: auto;
+        margin: 1% 0%;
+        padding-top: 2rem;
+    
+    }
+    
+    
+    
+    
+    .contacto__form {
+    
+      
+        width: 100%;
+        margin: 0%;
+    }
+    
+    
+    
+    
+    
+    
+    .flexform {
+    
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-items: column;
+        /*para que sea responsive se reacomoden sus hijos*/
+    
+    }
+    
+    .flexform__input {
+        text-align: left;
+      margin: 2%;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    
+    
+    .flexform__input--tema {
+        text-align: left;
+        display: flex;
+        margin: 2%;
+        flex-direction: column;
+        width: 100%;
+      
+    
+    }
+    
+    .flexform__txtarea {
+        text-align: left;
+        margin: 2%;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    /*Medias Querys Para Movil*/
+    @media screen and (max-width:600px) {
+    
+        /* Desaparezco el nav*/
+    
+    
+        .navbar1 {
+            opacity: 1;
+            margin-left: 0px;
+            
+        }
+    
+        .navbar1-container input[type="checkbox"],
+        .navbar1-container .hamburger-lines {
+            display: block;
+        }
+    
+        .navbar1-container {
+            display: block;
+            position: relative;
+            height: 64px;
+            z-index: 1000;
+        }
+    
+        .navbar1-container input[type="checkbox"] {
+            position: absolute;
+            display: block;
+            height: 32px;
+            width: 30px;
+            top: 20px;
+            right: 20px;
+            z-index: 5;
+            opacity: 0;
+        }
+    
+        .navbar1-container .hamburger-lines {
+            display: block;
+            height: 23px;
+            width: 35px;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    
+        .navbar1-container .hamburger-lines .line {
+            display: block;
+            height: 4px;
+            width: 100%;
+            border-radius: 10px;
+            background: #333;
+        }
+    
+        .navbar1-container .hamburger-lines .line1 {
+            transform-origin: 0% 0%;
+            transition: transform 0.4s ease-in-out;
+        }
+    
+        .navbar1-container .hamburger-lines .line2 {
+            transition: transform 0.2s ease-in-out;
+        }
+    
+        .navbar1-container .hamburger-lines .line3 {
+            transform-origin: 0% 100%;
+            transition: transform 0.4s ease-in-out;
+        }
+    
+    
+    
+    
+        .navbar1 .menu-items {
+           width: 100%;
+            padding-top: 0px;
+            background: #fff;
+            height: auto;
+            max-width: 300px;
+            transform: translate(-550%);
+            display: flex;
+            flex-direction: column;
+           
+           align-items: center;
+            transition: transform 0.5s ease-in-out;
+            box-shadow: 5px 0px 10px 0px #aaa;
+        }
+    
+    
+        .navbar1 .menu-items li {
+            text-align: center;
+            margin-bottom: 0.2rem;
+            font-size: 0.6rem;
+          
+        }
+    
+    
+    
+        .navbar1-container input[type="checkbox"]:checked~.menu-items {
+            transform: translateX(0);
+        }
+    
+        .navbar1-container input[type="checkbox"]:checked~.hamburger-lines .line1 {
+            transform: rotate(35deg);
+        }
+    
+        .navbar1-container input[type="checkbox"]:checked~.hamburger-lines .line2 {
+            transform: scaleY(0);
+        }
+    
+        .navbar1-container input[type="checkbox"]:checked~.hamburger-lines .line3 {
+            transform: rotate(-35deg);
+        }
+    
+    
+      
+    
+     
+    
+    
+    
+        /* ......./ FIN /......... */
+    
+    
+        
+    
+    
+    
+        header img {
+            margin-top: 5%;
+            width: 100px;
+            margin-left: 5px;
+    
+        }
+    
+    
+    
+        /*SECCION PRINCIPAL TAZA DE CAFE TITULOS EN MODO RESPONSIVE CEL*/
+    
+    
+    
+    
+    
+    
+    
+    
+        .sectionprincipal {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+    
+    
+            top: 0px;
+    
+        }
+    
+    
+        .SeccionPrincipal__img img {
+            width: 300px;
+        }
+    
+    
+    
+        .sectionprincipal__texto {
+            margin: 0px;
+         width: 100%;
+        }
+    
+        .sectionprincipal button {
+            background-color: #C7A17A;
+            font-weight: 400;
+    
+    
+    
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font-family: 'Jost', sans-serif;
+    
+            color: aliceblue;
+    
+            margin: 15px;
+        }
+    
+    
+    
+        .SeccionPrincipal__img {
+     text-align: center;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            animation: taza 1s infinite alternate;
+        }
+    
+    
+        /*MENU DEL INDEX*/
+    
+        .Menus {
+            display: column;
+            /*Siempre hay que agregarle display flex al elemento Padre, esta clase*/
+            margin-top: 2rem;
+            flex-direction: row;
+    
+            align-items: center;
+            padding: 0px;
+            margin-bottom: 5%;
+    
+        }
+    
+    
+        .Menus__img {
+    
+            width: 100%;
+    
+    
+        }
+    
+        .Menus__img img {
+            max-width: 100%;
+    height: auto;
+        }
+    
+        .menu1img{
+            grid-area: menu1img;
+           
+        }
+        
+        .menu2img{
+            grid-area: menu2img;
+           
+        }
+    
+        .Menus__texto {
+            width: 100%;
+            text-align: center;
+            font-size: medium;
+            color: rgba(90, 50, 29, 1);
+            margin-left: 0px;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+    
+        }
+    
+        .Menus__texto p {
+            margin-top: 5%;
+            font-size: medium;
+    
+        }
+    
+        .local__img {
+          
+                grid-area: imglocal;
+                margin-top: 1rem;
+                margin-bottom: 2rem;
+                margin-left: 0px;
+            
+        
+        }
+        
+        
+        
+        
+        .local__img img {
+            
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            box-shadow: 10px 10px 5px 0px rgba(90, 50, 29, 0.55);
+            border-radius: 5%;
+        
+        }
+    
+        
+        .local__texto {
+            grid-area: textolocal;
+            margin-bottom: 1rem;
+            
+          
+            width :100%;
+            text-align: justify;
+            padding-left: 15px;
+            padding-right: 20px;
+            margin-left: 5px;
+            margin-left: 5px;
+           
+            color: rgba(90, 50, 29, 1);
+            font-size: larger;
+        }
+        
+        .local__texto h2 {
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+        
+       
+        
+    
+    
+    
+        
+       
+    
+    
+    
+    
+        /*FooTER MOVIL*/
+    
+        .footercontent {
+            display: flex;
+            /*Siempre hay que agregarle display flex al elemento Padre, esta clase*/
+    
+            /*para que sea responsive se reacomoden sus hijos*/
+    
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+    
+    
+    
+        }
+    
+        .footercontent__img {
+            text-align: center;
+            margin: 0%;
+            width: 100%;
+    
+        }
+    
+        .footercontent__img img {
+    
+            width: 180px;
+    
+        }
+    
+    
+        .footercontent__text {
+            text-align: justify;
+            font-size: larger;
+            width: 100%;
+            margin-left: 0%;
+            margin-right: 0%;
+            margin-bottom: 15px;
+        }
+    
+    
+        .footericonos {
+            width: 100%;
+            display: flex;
+            /*Siempre hay que agregarle display flex al elemento Padre, esta clase*/
+    
+            /*para que sea responsive se reacomoden sus hijos*/
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items:flex-start;
+           margin-left: 15px;
+            padding: 25px;
+    
+    
+        }
+    
+        
+    
+        .footericonos__column img{
+            margin-right: 10px;
+            width:60px;
+            height: auto;
+        }
+        
+        .footericonos__column span{
+         margin-top: 15px;
+         font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+        }
+        
+        .footericonos__column{
+         display: flex;
+        flex-direction: row;
+        justify-items: end;
+        }
+    
+    
+        .menufooter__items {
+      
+            display: flex;
+            flex-direction: row;
+              width: 100%;
+              margin-left: 0%;
+              justify-content: space-evenly;
+              margin-top: 15px;
+            
+          }
+          
+          
+          
+          
+          .menufooter__items li {
+           list-style: none;
+              font-size: 16px;
+              color: #faf9f9;
+              font-weight: 300;
+               transition: color 0.5s ease-in-out;
+               font-family: 'Bebas Neue', cursive;
+               padding-top: 2rem;
+               padding-bottom: 2rem;
+               transition: color 1s ease-in-out;
+          
+          }
+    
+    
+        /*PAGINA GALERIA AREA GRID PARA MOVIL*/
+    
+    
+    
+        .BannerTitulo {
+            display: flex;
+            height: 250px;
+            width: 100%;
+            background: linear-gradient(rgba(7, 7, 7, 0.4)100%, rgba(0, 0, 0, 0.8)100%), url("../assets/img/banertop.jpg");
+            /*background-image: url("../assets/img/banertop.jpg");*/
+            background-position: bottom right;
+            background-repeat: no-repeat;
+            background-size: cover;
+        
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 2rem;
+        
+        }
+        
+        .BannerTitulo__Texto {
+            width: 50%;
+            font-family: 'Oswald', sans-serif;
+            letter-spacing: 5px;
+            opacity: .8;
+            font-weight: 700;
+            font-size: 32px;
+            margin-bottom: 10px;
+            line-height: 66px;
+            text-transform: uppercase;
+            color: aliceblue;
+            text-align: center;
+        }
+    
+    
+    
+    
+              .videotexto__iframe {
+                margin-left: 0px;
+                margin-bottom: 1rem;
+                position: relative;
+              width: 100%;
+              padding-bottom: 56.25%; 
+              height: 0;
+            
+            }
+            
+            
+            .videotexto__iframe iframe {
+                
+                position: absolute;
+                top:0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            
+            }
+            
+            
+            
+            .videotexto__texto {
+                text-align: center;
+                width: 100%;
+            
+            }
+    
+    
+        .gridimage {
+    
+            border: solid 3px rgba(141, 101, 75, 1);
+            ;
+    
+            margin-bottom: 0px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(6, 200px);
+            grid-gap: 15px;
+            grid-template-areas:
+                "img1"
+                "img2"
+                "img3"
+                "img4"
+                "img5"
+                "img6"
+            ;
+            column-gap: 2px;
+            /*Separacion*/
+            row-gap: 2px;
+            /*gap:2px 2px;   PARA Abreviar separacion*/
+        }
+    
+    
+    
+    /*PAGINA CONTACTO AREA MOVIL GRID*/
+    .contacto {
+        font-family: 'Jost', sans-serif;
+        font-size: 16px;
+        border: 1px solid #E2DFDD;
+        box-shadow: 0px 14px 40px 0px rgba(220, 220, 220, 0.3);
+    
+    
+        color: rgb(61, 57, 56);
+        width: 100%;
+        height: auto;
+        margin: 1% 0%;
+        padding-top: 2rem;
+    
+    }
+    
+    
+    
+    
+    .contacto__form {
+    
+      
+        width: 100%;
+        margin: 0%;
+    }
+    
+    
+    
+    
+    
+    
+    .flexform {
+    
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-items: column;
+        /*para que sea responsive se reacomoden sus hijos*/
+    
+    }
+    
+    .flexform__input {
+        text-align: left;
+      margin: 2%;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    
+    
+    .flexform__input--tema {
+        text-align: left;
+        display: flex;
+        margin: 2%;
+        flex-direction: column;
+        width: 100%;
+      
+    
+    }
+    
+    .flexform__txtarea {
+        text-align: left;
+        margin: 2%;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    
+    
+    
+    .sectioncard__card {
+    
+    
+        margin-left: 0px;
+    }
+    
+    
+    
+    }
