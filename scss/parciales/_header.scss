@@ -11,31 +11,15 @@ header img {
 
 }
 
-.navbar1 input[type="checkbox"],
-.navbar1 .hamburger-lines {
-    display: none;
-}
 
-.navbar1 {
-
-    color: rgb(255, 255, 255);
-    opacity: 0.85;
-    height: 150px;
-
-}
-
-.navbar1-container {
+.menu-items{
     display: flex;
-    justify-content: space-evenly;
-    height: 100px;
-    align-items: center;
 }
 
-.menu-items {
 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.menu-items a {
+
+font-size: 25px;
 }
 
 
@@ -55,7 +39,7 @@ header img {
 
 
 .menu-items a {
-    font-size: 20px;
+  
     color: #3d2c2a;
      transition: color 0.5s ease-in-out;
      font-weight: 500;
