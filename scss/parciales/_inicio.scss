@@ -117,6 +117,8 @@
     background-size: cover;
 }
 
+
+
 .divtitulomen{
 color: $colorPrincipal;
 
@@ -136,7 +138,7 @@ color: $colorPrincipal;
 	position: relative;
     vertical-align: middle;
 	border: 5px solid $colorPrincipal;
-	box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+	
     
 }
 .box img {
@@ -152,9 +154,10 @@ object-position: center center;
     
 	color: #fff;
 	background: rgba(0,0,0,0.5);
+
 	height:100%;
 	width: 100%;
-	padding: 15px;
+	
 	box-sizing: border-box;
 	opacity: 0;
   
@@ -164,9 +167,10 @@ object-position: center center;
 .box .infor h3 {
 	font-size: 40px;
 	line-height: 40px;
-	overflow: hidden; white-space: nowrap;
+	overflow: hidden;
+     white-space: nowrap;
 	text-overflow: ellipsis;
-    
+    margin-top: 40%;
 }
 .box:hover .infor {
 		opacity: 1;
@@ -178,8 +182,7 @@ object-position: center center;
 
 .containerfull{
     width: 100%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  
 }
 
 
