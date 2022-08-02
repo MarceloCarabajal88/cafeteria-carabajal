@@ -10,6 +10,14 @@ body {
   background-size: cover;
 }
 
+/*Se agrega esta linea para quitar el scrol a  la derecha q tenia la pagina*/
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
 h1,
 h2 {
   font-family: 'Bebas Neue', cursive;
@@ -112,7 +120,6 @@ header img {
 
 /* desktop mode............/// */
 body {
-  width: 100%;
   margin: 0px;
   padding: 0px;
 }
@@ -399,6 +406,10 @@ footer {
   font-size: large;
   color: #302e2e;
   margin-left: 1.5rem;
+}
+
+.flexColumn__texto h2 {
+  max-width: 80%;
 }
 
 .flexColumn__texto span {
@@ -876,6 +887,15 @@ footer {
     width: 100%;
     flex-direction: column;
   }
+  .flexColumn__texto {
+    position: relative;
+    font-size: large;
+    color: #302e2e;
+    margin-left: 1.5rem;
+  }
+  .flexColumn__texto h2 {
+    max-width: 80%;
+  }
 }
 
 /*Medias Querys Para Movil*/
@@ -885,9 +905,23 @@ footer {
     width: 100px;
     margin-left: 5px;
   }
+  body {
+    background-image: none;
+    background-color: #f5f3f2;
+  }
+  header {
+    background-color: #fff;
+    padding-bottom: 1rem;
+  }
+  main {
+    padding-top: 1rem;
+  }
   /*SECCION PRINCIPAL TAZA DE CAFE TITULOS EN MODO RESPONSIVE CEL*/
   .navbar-nav {
-    background-color: #f5efef;
+    background-color: #fff;
+  }
+  .customtoggler {
+    color: #5a321d;
   }
   .box {
     position: relative;
@@ -968,12 +1002,6 @@ footer {
   .Menus__img img {
     max-width: 100%;
     height: auto;
-  }
-  .menu1img {
-    grid-area: menu1img;
-  }
-  .menu2img {
-    grid-area: menu2img;
   }
   .Menus__texto {
     width: 100%;

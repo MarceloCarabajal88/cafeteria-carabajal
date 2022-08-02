@@ -4,6 +4,7 @@
 @media screen and (max-width:1023px) {
 
 
+
     /*FOOTER*/
     
     .footercontent {
@@ -201,8 +202,18 @@
     }
     
     
-    
-    
+    .flexColumn__texto {
+
+
+    position: relative;
+    font-size: large;
+    color: #302e2e;
+    margin-left: 1.5rem;
+
+    h2 {
+max-width: 80%;
+    }
+}
     
     
     }
@@ -220,13 +231,37 @@
     
         }
     
+
+
+     
+        body {
     
-    
-        /*SECCION PRINCIPAL TAZA DE CAFE TITULOS EN MODO RESPONSIVE CEL*/
-    .navbar-nav{
-        background-color: #f5efef;
+                background-image: none;
+                background-color: #f5f3f2;
+                
+            }
+            
+        
+    header{
+        
+        background-color: #fff;
+        padding-bottom: 1rem;
     }
     
+    main{
+        padding-top: 1rem;
+
+    }
+        /*SECCION PRINCIPAL TAZA DE CAFE TITULOS EN MODO RESPONSIVE CEL*/
+    .navbar-nav{
+        background-color: #fff;
+    }
+     
+    .customtoggler{
+color:$colorPrincipal;
+    }
+
+ 
     .box {
         position: relative;
         vertical-align: middle;
@@ -340,15 +375,7 @@
     height: auto;
         }
     
-        .menu1img{
-            grid-area: menu1img;
-           
-        }
-        
-        .menu2img{
-            grid-area: menu2img;
-           
-        }
+     
     
         .Menus__texto {
             width: 100%;
@@ -405,23 +432,15 @@
            
             color: rgba(90, 50, 29, 1);
             font-size: larger;
+
+            h2{
+                text-align: center;
+                margin-bottom: 0.5rem;
+            }
         }
         
-        .local__texto h2 {
-            text-align: center;
-            margin-bottom: 0.5rem;
-        }
+     
         
-       
-        
-    
-    
-    
-        
-       
-    
-    
-    
     
         /*FooTER MOVIL*/
     
@@ -649,7 +668,7 @@
         margin: 0%;
     }
     
-    
+   
     
     
     

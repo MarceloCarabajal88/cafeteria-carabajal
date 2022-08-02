@@ -20,23 +20,29 @@
     color: #302e2e;
     margin-left: 1.5rem;
 
+    h2 {
+max-width: 80%;
+    }
+
+    span {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #ffffff;
+        background: #C7A17A;
+        font-family: "Jost", sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        padding: 1.5px 13px;
+        letter-spacing: 2px;
+        border-radius: 3px;
+        line-height: 22px;
+        margin-bottom: 23px;
+    }
+
 }
 
-.flexColumn__texto span {
-    position: absolute;
-    top: 0;
-    right: 0;
-    color: #ffffff;
-    background: #C7A17A;
-    font-family: "Jost", sans-serif;
-    font-size: 13px;
-    font-weight: 600;
-    padding: 1.5px 13px;
-    letter-spacing: 2px;
-    border-radius: 3px;
-    line-height: 22px;
-    margin-bottom: 23px;
-}
+
 
 
 .ImgColumn {

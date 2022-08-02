@@ -5,10 +5,19 @@
 }
 
 body {
+    
     background-image: url("../assets/img/bodyfondo1.png");
 
     background-repeat: repeat;
     background-size: cover;
+}
+/*Se agrega esta linea para quitar el scrol a  la derecha q tenia la pagina*/
+html,body{
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+
 }
 
 h1,
