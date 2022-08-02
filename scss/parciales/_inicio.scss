@@ -128,22 +128,8 @@ color: $colorPrincipal;
 }
 }
 
-.Menus__img{
-   margin-left: 0px;
-   padding-left: 0px;
-   padding-right: 0px;
 
 
-
-   img{
-    width: 100%;
-    height: 400%;
-    object-fit: cover;
-    }
-
-
-
-}
 
 
 .box {
@@ -151,8 +137,14 @@ color: $colorPrincipal;
     vertical-align: middle;
 	border: 5px solid $colorPrincipal;
 	box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    
 }
-.box img {width: 100%; }
+.box img {
+width: 100%; 
+height:auto;
+object-fit:cover;
+object-position: center center;
+}
 
 .box .infor {
     text-align: center;
@@ -165,14 +157,16 @@ color: $colorPrincipal;
 	padding: 15px;
 	box-sizing: border-box;
 	opacity: 0;
+  
 	transition: all 0.3s ease-in-out;
     font-family: 'EB Garamond', serif;
 }
 .box .infor h3 {
-	font-size: 28px;
+	font-size: 40px;
 	line-height: 40px;
 	overflow: hidden; white-space: nowrap;
 	text-overflow: ellipsis;
+    
 }
 .box:hover .infor {
 		opacity: 1;
