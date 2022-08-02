@@ -8,7 +8,11 @@
 /* desktop mode............/// */
 
 
-
+body{
+  
+    margin:0px;
+    padding: 0px;
+}
 
 .btn {
     color: rgb(239, 229, 229);
@@ -86,8 +90,8 @@
 }
 
 .SeccionPrincipal__img {
-    grid-area: img1;
-    margin-right: 150px;
+  
+ 
     animation: taza 1s infinite alternate;
 
     img {
@@ -182,7 +186,7 @@ object-position: center center;
 
 .containerfull{
     width: 100%;
-  
+
 }
 
 

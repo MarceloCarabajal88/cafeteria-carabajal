@@ -111,6 +111,12 @@ header img {
 /* ............/navbar/............ *
 
 /* desktop mode............/// */
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
 .btn {
   color: #efe5e5;
   text-decoration: none;
@@ -164,8 +170,6 @@ header img {
 }
 
 .SeccionPrincipal__img {
-  grid-area: img1;
-  margin-right: 150px;
   animation: taza 1s infinite alternate;
 }
 
