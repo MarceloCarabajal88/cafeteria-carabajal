@@ -209,6 +209,7 @@ body {
 }
 
 .box {
+  max-width: 500px;
   position: relative;
   vertical-align: middle;
   border: 5px solid #5a321d;
@@ -254,7 +255,7 @@ body {
 }
 
 .Menus__texto {
-  height: auto;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;

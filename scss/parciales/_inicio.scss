@@ -139,6 +139,7 @@ color: $colorPrincipal;
 
 
 .box {
+   max-width: 500px;
 	position: relative;
     vertical-align: middle;
 	border: 5px solid $colorPrincipal;
@@ -192,7 +193,8 @@ object-position: center center;
 
 
 .Menus__texto {
-  height: auto;
+    width: 100%;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
