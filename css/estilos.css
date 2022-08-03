@@ -915,7 +915,9 @@ footer {
     padding-bottom: 1rem;
   }
   main {
-    padding-top: 1rem;
+    background-image: url("../assets/img/bodyfondo1.png");
+    background-repeat: repeat;
+    background-size: cover;
   }
   /*SECCION PRINCIPAL TAZA DE CAFE TITULOS EN MODO RESPONSIVE CEL*/
   .navbar-nav {
