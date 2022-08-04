@@ -20,6 +20,11 @@ html, body {
   box-sizing: border-box;
 }
 
+/*Piso codigo de bootstrap ya que afecta el menu footer al darle pading*/
+ol, ul {
+  padding-left: 0px;
+}
+
 h1,
 h2 {
   font-family: 'Bebas Neue', cursive;
