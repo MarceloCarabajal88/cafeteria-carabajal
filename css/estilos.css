@@ -1,3 +1,5 @@
+/*COLORES*/
+/*FUENTES*/
 * {
   padding: 0;
   margin: 0;
@@ -159,7 +161,7 @@ body {
   padding: 21px 42px;
   border-radius: 5px;
   text-transform: uppercase;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif, serif;
   color: aliceblue;
   transition: 0.8s cubic-bezier(0.25, 1, 0.5, 1);
   margin: 15px;
@@ -204,7 +206,7 @@ body {
 }
 
 .divtitulomen h2 {
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
   font-size: 32px;
 }
 
@@ -234,7 +236,7 @@ body {
   box-sizing: border-box;
   opacity: 0;
   transition: all 0.3s ease-in-out;
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
 }
 
 .box .infor h3 {
@@ -270,7 +272,6 @@ body {
 }
 
 .imgbanner {
-  grid-area: banner;
   display: flex;
   background: linear-gradient(rgba(90, 50, 29, 0.4) 100%, rgba(0, 0, 0, 0.5) 100%), url("../assets/img/imgtabla2.jpg");
   align-items: center;
@@ -287,10 +288,14 @@ body {
 
 .imgbanner .imgbanner__text {
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "EB Garamond", serif;
   font-size: larger;
   color: rgba(255, 255, 255, 0.8);
   /*background-color: rgba(147, 101, 77, 0.3);*/
+}
+
+.imgbanner h3 {
+  text-transform: uppercase;
 }
 
 .local__img img {

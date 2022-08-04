@@ -53,7 +53,7 @@ body{
     }
 
     button {
-        background-color: #C7A17A;
+        background-color: $colorSecundario;
         font-weight: 700;
         cursor: pointer;
         font-size: 16px;
@@ -61,7 +61,7 @@ body{
         padding: 21px 42px;
         border-radius: 5px;
         text-transform: uppercase;
-        font-family: 'Jost', sans-serif;
+        font-family: $fuentePrincipal;
     
         color: aliceblue;
         transition: 0.8s cubic-bezier(0.25, 1, 0.5, 1);
@@ -128,7 +128,7 @@ color: $colorPrincipal;
 
 
  h2{
-  font-family: 'EB Garamond', serif;
+  font-family: $fuenteSecundaria;
   font-size: 32px;
   
 }
@@ -144,14 +144,14 @@ color: $colorPrincipal;
     vertical-align: middle;
 	border: 5px solid $colorPrincipal;
 	
-    
+    img {
+        width: 100%; 
+        height:auto;
+        object-fit:cover;
+        object-position: center center;
+        }
 }
-.box img {
-width: 100%; 
-height:auto;
-object-fit:cover;
-object-position: center center;
-}
+
 
 .box .infor {
     text-align: center;
@@ -167,16 +167,18 @@ object-position: center center;
 	opacity: 0;
   
 	transition: all 0.3s ease-in-out;
-    font-family: 'EB Garamond', serif;
+    font-family: $fuenteSecundaria;
+
+    h3 {
+        font-size: 40px;
+        line-height: 40px;
+        overflow: hidden;
+         white-space: nowrap;
+        text-overflow: ellipsis;
+        margin-top: 40%;
+    }
 }
-.box .infor h3 {
-	font-size: 40px;
-	line-height: 40px;
-	overflow: hidden;
-     white-space: nowrap;
-	text-overflow: ellipsis;
-    margin-top: 40%;
-}
+
 .box:hover .infor {
 		opacity: 1;
 }
@@ -213,7 +215,7 @@ object-position: center center;
 
 
 .imgbanner {
-    grid-area: banner;
+   
     display: flex;
     
     background: linear-gradient(rgba(90, 50, 29, 0.4)100%, rgba(0, 0, 0, 0.5)100%), url("../assets/img/imgtabla2.jpg");
@@ -230,11 +232,14 @@ object-position: center center;
 
     .imgbanner__text {
         text-align: center;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: $fuenteSecundaria;
         font-size: larger;
         color: rgba(255, 255, 255, 0.8);
         /*background-color: rgba(147, 101, 77, 0.3);*/
     
+    }
+    h3{
+        text-transform:uppercase;
     }
     
 }
