@@ -160,14 +160,14 @@ body {
 
 .sectionprincipal__texto button {
   background-color: #C7A17A;
-  font-weight: 700;
+  font-weight: 900;
   cursor: pointer;
   font-size: 16px;
   padding: 21px 42px;
   border-radius: 5px;
   text-transform: uppercase;
-  font-family: "Jost", sans-serif, serif;
-  color: aliceblue;
+  font-family: "EB Garamond", serif;
+  color: white;
   transition: 0.8s cubic-bezier(0.25, 1, 0.5, 1);
   margin: 15px;
 }
