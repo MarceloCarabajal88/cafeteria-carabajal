@@ -7,3 +7,27 @@ $fuentePrincipal:'Jost', sans-serif, serif;
 $fuenteSecundaria:'EB Garamond', serif;
 $fuenteMenu:'Bebas Neue', cursive;
 $fuenteaux:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+$titulos: (
+    "xs":16px,
+    "md":20px,
+    "lg":40px,
+    "xl":60px
+);
+    
+
+
+//EACH TITULOS
+@each $nombre,$size in $titulos {
+    .titulo-#{$nombre} {
+        font-size: $size;
+        color:$colorPrincipal;
+        text-transform: uppercase;
+        @if($nombre=="xl"){
+
+font-weight: 700;
+
+        }
+    }
+}

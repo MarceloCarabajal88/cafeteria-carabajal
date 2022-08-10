@@ -1,5 +1,30 @@
 /*COLORES*/
 /*FUENTES*/
+.titulo-xs {
+  font-size: 16px;
+  color: #5a321d;
+  text-transform: uppercase;
+}
+
+.titulo-md {
+  font-size: 20px;
+  color: #5a321d;
+  text-transform: uppercase;
+}
+
+.titulo-lg {
+  font-size: 40px;
+  color: #5a321d;
+  text-transform: uppercase;
+}
+
+.titulo-xl {
+  font-size: 60px;
+  color: #5a321d;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -25,8 +50,7 @@ ol, ul {
   padding-left: 0px;
 }
 
-h1,
-h2 {
+h1, h2 {
   font-family: 'Bebas Neue', cursive;
 }
 
@@ -146,14 +170,10 @@ body {
   margin-left: 3rem;
   margin-top: 2rem;
   color: #5a321d;
-  font-size: 55px;
 }
 
 .sectionprincipal__texto h2 {
-  font-size: 60px;
   line-height: 57px;
-  font-weight: 700;
-  text-transform: uppercase;
   margin-bottom: 2rem;
   text-align: center;
 }
