@@ -931,6 +931,27 @@ footer {
 
 /*Medias Querys Para Movil*/
 @media screen and (max-width: 600px) {
+  .BannerTitulo {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .BannerTitulo__Texto {
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+    opacity: .8;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 10px;
+    line-height: 66px;
+    text-transform: uppercase;
+    color: aliceblue;
+    text-align: center;
+  }
+  .BannerTitulo__Texto h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+  }
   header img {
     margin-top: 5%;
     width: 100px;
@@ -1165,19 +1186,6 @@ footer {
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
-  }
-  .BannerTitulo__Texto {
-    width: 50%;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 5px;
-    opacity: .8;
-    font-weight: 700;
-    font-size: 32px;
-    margin-bottom: 10px;
-    line-height: 66px;
-    text-transform: uppercase;
-    color: aliceblue;
-    text-align: center;
   }
   .videotexto__iframe {
     margin-left: 0px;
