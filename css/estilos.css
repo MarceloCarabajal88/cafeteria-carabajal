@@ -1079,6 +1079,8 @@ footer {
     width: 100%;
     margin-left: 0%;
     margin-right: 0%;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-bottom: 15px;
   }
   .footericonos {
@@ -1089,7 +1091,10 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 25px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
   }
   .footericonos__column img {
     margin-right: 10px;
