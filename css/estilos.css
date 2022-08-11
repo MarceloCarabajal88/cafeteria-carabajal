@@ -103,6 +103,10 @@ hr {
   font-size: 62px;
 }
 
+.verde {
+  filter: hue-rotate(120deg);
+}
+
 header {
   width: 100%;
   margin-bottom: 0;
@@ -201,6 +205,19 @@ body {
   width: 100%;
   text-align: center;
   color: #5a321d;
+  transition: 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.icon1:hover {
+  filter: brightness(0) saturate(100%) invert(36%) sepia(71%) saturate(4947%) hue-rotate(222deg) brightness(86%) contrast(88%);
+}
+
+.icon2:hover {
+  filter: invert(50%) sepia(82%) saturate(1739%) hue-rotate(359deg) brightness(102%) contrast(102%);
+}
+
+.icon3:hover {
+  filter: brightness(0) saturate(100%) invert(21%) sepia(53%) saturate(4868%) hue-rotate(351deg) brightness(96%) contrast(92%);
 }
 
 .SeccionPrincipal__img {
@@ -286,7 +303,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  grid-area: textmenu;
   text-align: center;
   font-size: large;
   color: #5a321d;
@@ -491,7 +507,7 @@ footer {
   justify-content: space-between;
   list-style: none;
   font-family: "Jost", sans-serif;
-  font-size: 16px;
+  font-size: 22px;
   margin: 0.2rem 0;
 }
 
@@ -711,11 +727,10 @@ footer {
 }
 
 .divtitulo {
-  grid-area: title;
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin: 3rem 0;
+  margin: 2rem 0;
   align-items: center;
 }
 
@@ -724,13 +739,14 @@ footer {
   background: #C7A17A;
   font-family: "Jost", sans-serif;
   display: inline-block;
-  font-size: 12px;
+  font-size: 16px;
+  font-weight: 500;
   text-transform: uppercase;
   padding: 1.5px 13px;
   letter-spacing: 2px;
   border-radius: 3px;
   line-height: 22px;
-  margin-bottom: 23px;
+  margin-bottom: 15px;
 }
 
 .aboutus__text h2 {
@@ -739,10 +755,11 @@ footer {
   font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .aboutus__text p {
-  font-size: 18px;
+  font-size: 22px;
   color: #656262;
   margin-bottom: 2rem;
   line-height: 1.5em;
@@ -760,7 +777,7 @@ footer {
   margin-top: 15px;
 }
 
-.aboutus__text ul li span img {
+.aboutus__text li span img {
   width: 30px;
   height: auto;
   margin-right: 2rem;

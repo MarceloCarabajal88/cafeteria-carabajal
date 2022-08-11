@@ -14,7 +14,7 @@ $titulos: (
     "md":20px,
     "lg":40px,
     "xl":60px
-);
+    );
     
 
 
@@ -31,3 +31,23 @@ font-weight: 700;
         }
     }
 }
+
+//MAPA DE COLORES
+$color: (
+    primario:#5a321d,
+    secundario: #C7A17A
+);
+
+
+$filtrorojo:brightness(0) saturate(100%) invert(21%) sepia(53%) saturate(4868%) hue-rotate(351deg) brightness(96%) contrast(92%);
+$filtroazul:brightness(0) saturate(100%) invert(36%) sepia(71%) saturate(4947%) hue-rotate(222deg) brightness(86%) contrast(88%);
+$filtronaranja: invert(50%) sepia(82%) saturate(1739%) hue-rotate(359deg) brightness(102%) contrast(102%);
+
+@mixin filtrocolor($filtrocolor) {
+    
+    filter: $filtrocolor
+ }
+
+   // @include filtrocolor($filtrorojo);
+ 
+ 

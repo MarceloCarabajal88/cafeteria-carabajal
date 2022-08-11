@@ -40,7 +40,7 @@ body{
 
     margin-left: 3rem;
     margin-top: 2rem;
-    color: $colorPrincipal;
+    color: map-get($map: $color, $key: primario);
   
     
      h2{
@@ -78,16 +78,30 @@ body{
 
 
 
-
-
-
-
 .sectionprincipal__Iconos {
     width: 100%;
     text-align: center;
  color: $colorPrincipal;
-
+ transition: 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+ 
 }
+
+.icon1:hover{
+    
+    @include filtrocolor($filtroazul);
+
+ }
+.icon2:hover{
+    
+    @include filtrocolor($filtronaranja);
+    
+ }
+ .icon3:hover{
+    
+    @include filtrocolor($filtrorojo);
+    
+ }
+
 
 .SeccionPrincipal__img {
   
@@ -200,7 +214,6 @@ color: $colorPrincipal;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    grid-area: textmenu;
     text-align: center;
     font-size: large;
     color: $colorPrincipal;
