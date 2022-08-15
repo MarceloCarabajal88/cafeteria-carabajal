@@ -982,6 +982,23 @@ footer {
     background-color: #fff;
     padding-bottom: 1rem;
   }
+  .menu-items a {
+    font-size: 25px;
+    font-family: "EB Garamond", serif;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .menu-items li {
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    margin: 5px;
+    padding: 0px;
+    transition: color 0.5s ease-in-out;
+    font-family: 'Bebas Neue', cursive;
+    border-bottom: #5a321d solid 1px;
+  }
   main {
     background-image: url("../assets/img/bodyfondo1.png");
     background-repeat: repeat;
