@@ -281,8 +281,12 @@ body {
   font-size: 32px;
 }
 
+.Menus__img {
+  min-width: 450px;
+}
+
 .box {
-  max-width: 500px;
+  width: 100%;
   position: relative;
   vertical-align: middle;
   border: 5px solid #5a321d;
@@ -291,22 +295,30 @@ body {
 .box img {
   width: 100%;
   height: auto;
-  object-fit: cover;
-  object-position: center center;
+  display: block;
 }
 
 .box .infor {
-  text-align: center;
   position: absolute;
-  left: 0;
   top: 0;
-  color: #fff;
+  height: 100%;
+  background: black;
   background: rgba(0, 0, 0, 0.5);
+  /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  top: 15%;
+  left: 25%;
   height: 100%;
   width: 100%;
-  box-sizing: border-box;
-  opacity: 0;
-  transition: all 0.3s ease-in-out;
+  margin: -15% 0 0 -25%;
+  line-height: 200px;
+  padding: 20px;
+  text-align: center;
   font-family: "EB Garamond", serif;
 }
 
@@ -317,6 +329,11 @@ body {
   white-space: nowrap;
   text-overflow: ellipsis;
   margin-top: 40%;
+}
+
+.box .infor p {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .box:hover .infor {
@@ -362,6 +379,8 @@ body {
   font-size: larger;
   color: rgba(255, 255, 255, 0.8);
   /*background-color: rgba(147, 101, 77, 0.3);*/
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .imgbanner h3 {
@@ -880,6 +899,23 @@ footer {
   .customtoggler {
     color: #5a321d;
   }
+  .Menus__img {
+    margin-top: 1rem;
+    width: 50%;
+  }
+  .Menus__texto {
+    width: 100%;
+    text-align: center;
+    color: #5a321d;
+    margin-left: 0px;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+  }
+  .Menus__texto p {
+    font-size: 22px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
   /*FOOTER*/
   .footercontent {
     display: flex;
@@ -959,13 +995,6 @@ footer {
     margin-top: 5%;
     width: 100px;
     margin-left: 5px;
-  }
-  .box {
-    position: relative;
-    vertical-align: middle;
-    border: 0px;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
   }
   /*PAGINA CONTACTO AREA TABLET GRID*/
   .contacto {
@@ -1164,7 +1193,51 @@ footer {
     margin-bottom: 5%;
   }
   .Menus__img {
+    margin-top: 1rem;
     width: 100%;
+  }
+  .box {
+    max-width: 450px;
+    width: 100%;
+    position: relative;
+    vertical-align: middle;
+    border: 5px solid #5a321d;
+  }
+  .box img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .box .infor {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background: black;
+    background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    top: 15%;
+    left: 25%;
+    height: 100%;
+    width: 100%;
+    margin: -15% 0 0 -25%;
+    line-height: 200px;
+    padding: 20px;
+    text-align: center;
+    font-family: "EB Garamond", serif;
+  }
+  .box .infor h3 {
+    font-size: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-top: 40%;
   }
   .Menus__img img {
     max-width: 100%;
@@ -1173,15 +1246,16 @@ footer {
   .Menus__texto {
     width: 100%;
     text-align: center;
-    font-size: medium;
     color: #5a321d;
     margin-left: 0px;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
   }
   .Menus__texto p {
+    padding-left: 5px;
+    padding-right: 5px;
     margin-top: 5%;
-    font-size: medium;
+    font-size: 22px;
   }
   .local__img {
     grid-area: imglocal;

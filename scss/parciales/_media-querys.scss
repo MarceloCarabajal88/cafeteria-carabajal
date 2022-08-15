@@ -63,8 +63,29 @@ color:$colorPrincipal;
 
 
 
+    .Menus__img {
+        margin-top: 1rem;
+                width: 50%;
+        
+        
+            }
 
 
+            .Menus__texto {
+                width: 100%;
+                text-align: center;
+                
+                color: rgba(90, 50, 29, 1);
+                margin-left: 0px;
+                margin-top: 5rem;
+                margin-bottom: 1rem;
+        
+                p{
+                    font-size: 22px;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                }
+            }
 
     /*FOOTER*/
     
@@ -190,13 +211,7 @@ color:$colorPrincipal;
         }
     
     
-        .box {
-            position: relative;
-            vertical-align: middle;
-            border: 0px;
-            padding-top: 2rem;
-            padding-bottom: 2rem;
-        }
+       
     
     
     
@@ -492,12 +507,68 @@ color:$colorPrincipal;
     
     
         .Menus__img {
-    
+    margin-top: 1rem;
             width: 100%;
     
     
         }
     
+
+        .box {
+            max-width: 450px;
+            width: 100%;
+             position: relative;
+             vertical-align: middle;
+             border: 5px solid $colorPrincipal;
+             
+             img {
+                 width: 100%; 
+                 height:auto;
+                 display: block;
+                 }
+         }
+         
+         
+         .box .infor {
+             position: absolute; 
+             top:0;
+             height:100%;
+             background: rgb(0, 0, 0);
+             background: rgba(0, 0, 0, 0.5); /* Black see-through */
+             color: #f1f1f1; 
+             width: 100%;
+             transition: .5s ease;
+             opacity:0;
+             color: white;
+             font-size: 20px;
+              
+               top: 15%;
+              left: 25%;
+              height: 100%;
+              width: 100%;
+              margin: -15% 0 0 -25%;
+               line-height: 200px;
+             padding: 20px;
+             text-align: center;
+             font-family: $fuenteSecundaria;
+         
+             h3 {
+                 font-size: 40px;
+                 line-height: 40px;
+                 overflow: hidden;
+                  white-space: nowrap;
+                 text-overflow: ellipsis;
+                 margin-top: 40%;
+             }
+         }
+
+
+
+
+
+
+
+
         .Menus__img img {
             max-width: 100%;
     height: auto;
@@ -508,20 +579,30 @@ color:$colorPrincipal;
         .Menus__texto {
             width: 100%;
             text-align: center;
-            font-size: medium;
+            
             color: rgba(90, 50, 29, 1);
             margin-left: 0px;
-            margin-top: 2rem;
-            margin-bottom: 2rem;
+            margin-top: 5rem;
+            margin-bottom: 1rem;
     
         }
     
         .Menus__texto p {
+            padding-left: 5px;
+            padding-right: 5px;
             margin-top: 5%;
-            font-size: medium;
+            font-size: 22px;
     
         }
     
+
+
+     
+
+
+
+
+
         .local__img {
           
                 grid-area: imglocal;
