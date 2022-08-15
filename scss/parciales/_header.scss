@@ -7,7 +7,7 @@ header {
 header img {
     margin-top: 5%;
     width: 150px;
-    margin-left: 50px;
+    margin-left: 10px;
 
 }
 
@@ -42,16 +42,44 @@ font-size: 25px;
 
 
 .menu-items a {
-  
+  position: relative;
     color: #3d2c2a;
      transition: color 0.5s ease-in-out;
      font-weight: 500;
 }
 
+.menu-items li a span{
+    position: absolute;
+    padding-bottom: 10px;
+    right:0;
+    top:0;
 
+}
+
+.menu-items li a span img{
+    width:35px;
+    display: none;
+}
 
 .menu-items li a:hover {
   
     color: #cc926f;
     transition: background-color 500ms linear
+}
+
+
+.navbar-toggler {
+    color:$colorLogo;
+}
+.navbar-toggler-icon
+{
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28140, 93, 70, 0.9%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: $colorLogo;
 }
