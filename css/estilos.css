@@ -358,6 +358,7 @@ body {
   text-align: center;
   font-size: large;
   color: #5a321d;
+  padding-top: 30px;
 }
 
 .Menus__texto p {
@@ -914,7 +915,7 @@ footer {
     text-align: center;
     color: #5a321d;
     margin-left: 0px;
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-bottom: 1rem;
   }
   .Menus__texto p {
@@ -1254,7 +1255,7 @@ footer {
     text-align: center;
     color: #5a321d;
     margin-left: 0px;
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-bottom: 1rem;
   }
   .Menus__texto p {

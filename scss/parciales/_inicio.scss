@@ -169,6 +169,7 @@ color: $colorPrincipal;
         width: 100%; 
         height:auto;
         display: block;
+       
         }
 }
 
@@ -236,9 +237,11 @@ color: $colorPrincipal;
     text-align: center;
     font-size: large;
     color: $colorPrincipal;
+    padding-top: 30px;
     
 
     p {
+       
         margin-top: 5%;
     
     }
