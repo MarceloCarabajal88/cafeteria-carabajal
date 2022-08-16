@@ -12,6 +12,12 @@
   text-transform: uppercase;
 }
 
+.titulo-lgx {
+  font-size: 35px;
+  color: #5a321d;
+  text-transform: uppercase;
+}
+
 .titulo-lg {
   font-size: 40px;
   color: #5a321d;
@@ -1201,7 +1207,7 @@ footer {
     width: 100%;
     position: relative;
     vertical-align: middle;
-    border: 5px solid #5a321d;
+    border: 4px solid #5a321d;
   }
   .box img {
     width: 100%;
@@ -1457,5 +1463,8 @@ footer {
   }
   .sectioncard__card {
     margin-left: 0px;
+  }
+  .aboutus__text li {
+    font-size: 18px;
   }
 }
