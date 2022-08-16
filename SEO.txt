@@ -1,0 +1,7 @@
+SEO
+1.	Se utilizo la herramienta de lightHouse para obtener reporte y ver los puntos seos a mejorar.
+2.	Se agrego las etiqueta meta keyword y meta description  a las páginas, con las palabras correspondientes.
+3.	Se quitaron los Lorem agregándose texto de calidad para el sitio web.
+4.	Se agregaron los “alt” de las imágenes con la descripción de las mismas.
+5.	Se chequeo que haya jerarquía en los textos H1, H2
+6.	Se realizo comprensión de las imágenes del sitio para reducir su peso.
