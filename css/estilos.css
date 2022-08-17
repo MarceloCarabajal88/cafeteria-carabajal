@@ -1355,6 +1355,7 @@ footer {
   .menufooter__items {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     margin-left: 0%;
     justify-content: space-evenly;
@@ -1467,5 +1468,13 @@ footer {
   }
   .aboutus__text li {
     font-size: 18px;
+  }
+  /*PAGINA MENU*/
+  .flexColumn__texto h2 {
+    max-width: 75%;
+  }
+  .imgbanner {
+    height: auto;
+    padding-top: 1rem;
   }
 }
